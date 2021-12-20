@@ -13,7 +13,7 @@ type Func func(string, ...interface{})
 
 var (
 	debugf = func(format string, v ...interface{}) {
-		log.Printf("DEBUG: "+format, v...)
+		// log.Printf("DEBUG: "+format, v...)
 	}
 	infof = func(format string, v ...interface{}) {
 		log.Printf("INFO: "+format, v...)
