@@ -9,8 +9,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/beatlabs/harvester/config"
-	"github.com/beatlabs/harvester/log"
+	"github.com/gtsatsis/harvester/config"
+	"github.com/gtsatsis/harvester/log"
 )
 
 // Getter interface for fetching a value for a specific key.

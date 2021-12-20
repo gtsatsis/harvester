@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/beatlabs/harvester"
-	harvestersync "github.com/beatlabs/harvester/sync"
+	"github.com/gtsatsis/harvester"
+	harvestersync "github.com/gtsatsis/harvester/sync"
 )
 
 type config struct {

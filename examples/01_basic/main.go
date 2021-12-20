@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/beatlabs/harvester"
-	"github.com/beatlabs/harvester/sync"
+	"github.com/gtsatsis/harvester"
+	"github.com/gtsatsis/harvester/sync"
 )
 
 type config struct {

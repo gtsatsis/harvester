@@ -6,9 +6,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/beatlabs/harvester"
-	"github.com/beatlabs/harvester/sync"
 	"github.com/go-redis/redis/v8"
+	"github.com/gtsatsis/harvester"
+	"github.com/gtsatsis/harvester/sync"
 )
 
 type config struct {

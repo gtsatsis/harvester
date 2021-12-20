@@ -7,9 +7,9 @@ import (
 	"path"
 	"time"
 
-	"github.com/beatlabs/harvester/change"
-	"github.com/beatlabs/harvester/config"
-	"github.com/beatlabs/harvester/log"
+	"github.com/gtsatsis/harvester/change"
+	"github.com/gtsatsis/harvester/config"
+	"github.com/gtsatsis/harvester/log"
 	"github.com/hashicorp/consul/api"
 	"github.com/hashicorp/consul/api/watch"
 )

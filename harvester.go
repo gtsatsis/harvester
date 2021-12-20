@@ -5,15 +5,15 @@ import (
 	"errors"
 	"time"
 
-	"github.com/beatlabs/harvester/config"
-	"github.com/beatlabs/harvester/log"
-	"github.com/beatlabs/harvester/monitor"
-	"github.com/beatlabs/harvester/monitor/consul"
-	redismon "github.com/beatlabs/harvester/monitor/redis"
-	"github.com/beatlabs/harvester/seed"
-	seedconsul "github.com/beatlabs/harvester/seed/consul"
-	seedredis "github.com/beatlabs/harvester/seed/redis"
 	"github.com/go-redis/redis/v8"
+	"github.com/gtsatsis/harvester/config"
+	"github.com/gtsatsis/harvester/log"
+	"github.com/gtsatsis/harvester/monitor"
+	"github.com/gtsatsis/harvester/monitor/consul"
+	redismon "github.com/gtsatsis/harvester/monitor/redis"
+	"github.com/gtsatsis/harvester/seed"
+	seedconsul "github.com/gtsatsis/harvester/seed/consul"
+	seedredis "github.com/gtsatsis/harvester/seed/redis"
 )
 
 // Seeder interface for seeding initial values of the configuration.

@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/beatlabs/harvester/config"
-	"github.com/beatlabs/harvester/sync"
 	"github.com/go-redis/redis/v8"
+	"github.com/gtsatsis/harvester/config"
+	"github.com/gtsatsis/harvester/sync"
 	"github.com/stretchr/testify/assert"
 )
 

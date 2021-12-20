@@ -1,3 +1,4 @@
+//go:build integration
 // +build integration
 
 package harvester
@@ -10,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/beatlabs/harvester/sync"
 	"github.com/go-redis/redis/v8"
+	"github.com/gtsatsis/harvester/sync"
 	"github.com/hashicorp/consul/api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

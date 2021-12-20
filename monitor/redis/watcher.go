@@ -6,10 +6,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/beatlabs/harvester/change"
-	"github.com/beatlabs/harvester/config"
-	"github.com/beatlabs/harvester/log"
 	"github.com/go-redis/redis/v8"
+	"github.com/gtsatsis/harvester/change"
+	"github.com/gtsatsis/harvester/config"
+	"github.com/gtsatsis/harvester/log"
 )
 
 // Watcher of Redis changes.

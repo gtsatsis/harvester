@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/beatlabs/harvester/config"
-	"github.com/beatlabs/harvester/sync"
+	"github.com/gtsatsis/harvester/config"
+	"github.com/gtsatsis/harvester/sync"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

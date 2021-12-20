@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/beatlabs/harvester/change"
 	"github.com/go-redis/redis/v8"
+	"github.com/gtsatsis/harvester/change"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

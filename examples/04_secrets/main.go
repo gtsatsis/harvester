@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/beatlabs/harvester"
-	"github.com/beatlabs/harvester/sync"
+	"github.com/gtsatsis/harvester"
+	"github.com/gtsatsis/harvester/sync"
 	"github.com/hashicorp/consul/api"
 )
 

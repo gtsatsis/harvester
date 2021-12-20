@@ -1,3 +1,4 @@
+//go:build integration
 // +build integration
 
 package consul
@@ -8,7 +9,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/beatlabs/harvester/change"
+	"github.com/gtsatsis/harvester/change"
 	"github.com/hashicorp/consul/api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
